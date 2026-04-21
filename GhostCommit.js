@@ -11,7 +11,7 @@ import { fileURLToPath } from "url";
 const Dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const Config = {
-    TotalCommits: 1000,
+    TotalCommits: 70,
     DataFile: "./data.json",
     RetryAttempts: 3,
     PushAfterAll: process.env.CI !== "true"
